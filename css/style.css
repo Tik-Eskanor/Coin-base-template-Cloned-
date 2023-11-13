@@ -1,0 +1,444 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 85%;
+}
+body{
+    max-width:1300px !important;
+    margin: auto;
+}
+
+
+.small-font
+{
+  font-size: 1rem !important;  
+}
+.f-900
+{
+    font-weight: 900 !important;
+}
+
+.dark-text
+{
+    color: black !important;
+}
+.b-radius
+{
+    border-radius:5px;
+}
+.text-blue
+{
+    color:rgb(70, 70, 236) !important;
+}
+.text-white
+{
+    color: white;
+}
+.bg-blue
+{
+    background-color: rgb(70, 70, 236)  !important;
+}
+.bg-lightblue
+{
+    background-color: rgb(70, 70, 250) !important;
+}
+.bg-white
+{
+    background-color: white;
+}
+.m-top
+{
+    margin-top: 70px;
+}
+
+
+
+header  .navbar-brand
+{
+    font-size: 2rem !important;
+}
+
+/*hero-section -----------*/
+.hero-section  a
+{
+    font-size: 1.5rem;
+}
+.hero-section  a:hover
+{
+    text-decoration: none;
+}
+ 
+.hero-section  h1
+{
+    font-size: 4.8rem;
+}
+.hero-section  p
+{
+    font-size: 1.5rem;
+}
+
+.hero-section form .email
+{
+        padding: 1.2rem 0;
+        border-radius: 3px;
+        border:1px solid rgb(192, 192, 211);
+        font-size: 19px;
+}
+
+/*table-section--------*/
+.table-section table th
+{
+    padding: 1.2rem 1.6rem;
+    font-weight: 100;
+    color: rgb(95, 92, 91);
+    font-size: 1rem;
+
+}
+.table-section table
+{
+    border:1px solid lightblue;
+    padding: 1.5rem;
+    border-spacing:5rem;
+}
+.table-section table  tr
+{
+    border:1px solid lightblue;
+
+}
+.table-section table td div
+{
+    padding: 10px 25px;
+    font-size: 19px;
+}
+table .p-right
+{
+    padding-right:9rem;
+}
+.color-tomato
+{
+    color:tomato;
+}
+.color-grey
+{
+    color: rgb(95, 92, 91);
+}
+table a
+{
+    color: white;
+    background-color: rgb(195, 79, 59);
+    padding: 0.6rem 1.1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+table a:hover
+{
+    color:white;
+    text-decoration: none;
+}
+
+/*after table-section*/
+.after-table-section .f-link
+{
+    padding: 11px  1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(68, 68, 246);
+    border-radius: 4px;
+}
+.after-table-section .f-link:hover
+{
+    text-decoration:none;
+}
+.stella-wrapper
+{
+    transition: all 0.5s;
+    padding: 27px 18px 8px 8px;
+}
+.stella-wrapper:hover
+{
+    box-shadow:1px 2px 30px rgb(202, 197, 197);
+    border-radius: 5px;
+}
+.viewmore:hover
+{
+    text-decoration: none;
+}
+
+.stella p
+{
+    font-size: 2rem;
+}
+
+
+
+/*create-crypto-section-----------------------------------------*/
+.create-crypto-section 
+{
+    margin-top: 6rem;
+}
+.create-crypto-section  p
+{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+/*most trusted-crypto-section-----------------------------------------*/
+.m-t-c-section
+{
+    margin-top:110px ;
+    border-top:1px solid rgb(194, 231, 243);
+    padding-top: 110px;
+}
+.m-t-c-section .p1
+{
+    font-size: 1.3rem;
+    color: gray;
+}
+.m-t-c-section p
+{
+    font-size: 1.1rem;
+    color: gray;
+}
+.m-t-c-section  a
+{
+    font-size: 1rem;
+}
+.sm-m-top
+{
+    margin-top: 90px;
+}
+.sm-m-top2
+{
+    margin-top: 65px;
+}
+
+/*blue-section-------------------------*/
+.blue-section
+{
+    margin-top: 100px;
+}
+.blue-section  h1
+{
+    font-size: 4rem;
+}
+.blue-section  small
+{
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/*get-started-section-------------------------*/
+.get-started-section
+{
+    margin-top: 80px;
+}
+.get-started-section  .row
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+.get-started-section  p
+{
+    font-size: 1.1rem;
+    color: gray;
+}
+.get-started-section hr
+{
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-top: 40px;
+}
+.get-started-section h5
+{
+    font-size:1.4rem;
+    
+}
+
+/*earn-section------------------------------------------*/
+.earn-section
+{
+    background-color:rgb(207, 255, 255);
+    margin-top: 100px;
+}
+.earn-section  .content-wrapper
+{
+    width: 65%;
+}
+.earn-section .f-link
+{
+    padding: 0.9rem  1.1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(68, 68, 246);
+    border-radius: 4px;
+}
+.earn-section .f-link:hover
+{
+    text-decoration:none;
+}
+
+
+
+/*earn-section-mobile-----------------------------------------*/
+.earn-section-mobile
+{
+    background-color:rgb(69, 37, 80);
+    margin-top: 100px;
+    display: none;
+}
+.earn-section-mobile  .col-md-12
+{
+    padding: 5rem  0;
+}
+.earn-section-mobile  p
+{
+    font-size: 1.3rem;
+    width: 80%;
+}
+.earn-section-mobile .content-wrapper
+{
+    width: 26%;
+    min-width: 330px;
+    color: white;
+}
+.earn-section-mobile  .f-link
+{
+    padding: 0.8rem  1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(68, 68, 246);
+    border-radius: 4px;
+}
+.earn-section-mobile .f-link:hover
+{
+    text-decoration:none;
+}
+
+/*footer---------------------------------------------*/
+footer small
+{
+    font-size: 1.2rem;
+}
+footer ul
+{
+    list-style-type: none;
+}
+footer small a
+{
+    text-decoration: none;
+    color:gray;
+    font-size: 1.1rem;
+}
+footer .logo
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+footer .copy-rite
+{
+    font-size: 1.2rem;
+    color:gray;
+}
+
+/*signup-page style----------------------------------------*/
+/*signupform-section ----------------------------------------------*/
+.form-section  form
+{
+    border-radius: 5px;
+    width:100%;
+    padding: 20px;
+}
+.form-section  form label
+{
+    font-weight: 900;
+}
+.form-section  form .input
+{
+    padding: 28px;
+    font-size: larger;
+}
+.form-section  form small
+{
+    font-size: 1.1rem;
+
+}
+.form-section p
+{
+    font-weight: 900;
+    color: white; 
+}
+.form-section p a
+{
+    font-weight: 900;
+    color: white; 
+}
+
+
+
+/*login-page style----------------------------------------*/
+/*login-form----------------------------------------*/
+.login-link
+{
+    background-color:rgb(70, 70, 236)  ;
+    color:white;
+    border:2px solid white;
+    padding: 8px;
+}
+.login-form-section form
+{
+    width:100%;
+    padding: 23px;
+    border-radius: 4px;
+}
+.login-form-section button
+{
+    font-size: 0.9rem;
+}
+.login-form-section a
+{
+    color:white;
+}
+
+.login-form-section a:hover
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:768px) {
+    .earn-section
+    {
+        display:none;
+    }
+    .earn-section-mobile
+    {
+        display:block;
+    }
+    html
+    {
+        font-size:75%;
+    }
+    
+}
